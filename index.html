@@ -108,7 +108,7 @@
       formData.append("action", type);
       const data = Object.fromEntries(formData.entries());
 
-      const response = await fetch("TON_URL_WEB_APP", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbyK_NxbFVBDufhFm-Ex1NMcY0UxHCKLLTB0afgPtS2OlCRV-H7mWqdiEzB6Jr6e79fd/exec", {
         method: "POST",
         body: JSON.stringify(data),
         headers: { "Content-Type": "application/json" }
