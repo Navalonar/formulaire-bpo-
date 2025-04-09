@@ -99,7 +99,7 @@
       formData.append("action", type); // "start" ou "end"
       const data = Object.fromEntries(formData.entries());
 
-      const response = await fetch("https://script.google.com/macros/s/AKfycbz1hvFWjtI71UiHmLIDKNm8c1h0Pt2M7ASZlFvZd9O_-UP31rceBK-7BJCIb8LfLVOe/exec", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbwJkgjhA2k3J135BrbHwzOHyf4Qqce20Yr-fLyn3U7_HFNbstJspdFafA7kegBbmWl4/exec", {
         method: "POST",
         body: JSON.stringify(data),
         headers: { "Content-Type": "application/json" }
